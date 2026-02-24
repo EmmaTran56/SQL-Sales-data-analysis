@@ -82,8 +82,6 @@ Write a query using dynamic SQL query to calculate the total profit for the last
 
 ## Insights and recommendations
 
-> Note: The specific numbers and rankings will depend on your actual dataset. Below is a suggested structure and common patterns you might observe when running this project.
-
 ### Key insights (typical patterns)
 - **Furniture sales seasonality**: Furniture sales clearly peak in Q4 and are weakest in Q1, so year‑end quarters require more inventory and marketing focus.
 - **Discount effectiveness**: 
