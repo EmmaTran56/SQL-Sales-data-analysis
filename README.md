@@ -32,11 +32,9 @@ These questions are implemented as SQL queries, a user-defined function, and a s
 - `PRODUCT.csv`: Product catalog with category and subcategory.
 - `ORDERS.csv`: Transaction-level orders with dates, product, sales, profit, and employee.
 
-## Schema
-- `CUSTOMER` (`ID`, `NAME`, `SEGMENT`, `COUNTRY`, `CITY`, `STATE`, `POSTAL_CODE`, `REGION`)
-- `EMPLOYEES` (`ID_EMPLOYEE`, `NAME`, `CITY`, `REGION`)
-- `PRODUCT` (`ID`, `NAME`, `CATEGORY`, `SUBCATEGORY`)
-- `ORDERS` (`ROW_ID`, `ORDER_ID`, `ORDER_DATE`, `SHIP_DATE`, `SHIP_MODE`, `CUSTOMER_ID`, `PRODUCT_ID`, `SALES`, `QUANTITY`, `DISCOUNT`, `PROFIT`, `ID_EMPLOYEE`)
+## Data model
+
+![Sales data model](screenshots/data_model.png)
 
 ## Results
 ### Question 1
